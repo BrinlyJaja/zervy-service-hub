@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -6,29 +5,29 @@ import { Button } from "@/components/ui/button";
 const ImageSlider = () => {
   const slides = [
     {
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=800&h=600&fit=crop",
-      title: "Connect with Skilled Professionals",
-      description: "Find verified artisans for all your service needs"
+      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
+      title: "Professional Beauticians & Stylists",
+      description: "Connect with certified beauty professionals and hair stylists across Nigeria"
     },
     {
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800&h=600&fit=crop",
-      title: "Technology-Driven Solutions",
-      description: "Modern platform for traditional craftsmanship"
+      image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?w=800&h=600&fit=crop",
+      title: "Skilled Electricians",
+      description: "Find qualified electricians for all your electrical installation and repair needs"
     },
     {
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&h=600&fit=crop",
-      title: "Seamless User Experience",
-      description: "Easy booking and communication with service providers"
+      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      title: "Expert Plumbers",
+      description: "Professional plumbing services for residential and commercial properties"
     },
     {
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
-      title: "Community of Experts",
-      description: "Join thousands of satisfied customers and skilled artisans"
+      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop",
+      title: "Master Carpenters",
+      description: "Quality woodworking and carpentry services for your construction needs"
     },
     {
-      image: "https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800&h=600&fit=crop",
-      title: "Transform Your Space",
-      description: "Quality services to make your vision a reality"
+      image: "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=800&h=600&fit=crop",
+      title: "Certified Mechanics",
+      description: "Reliable automotive repair and maintenance services from trusted professionals"
     }
   ];
 
@@ -54,10 +53,10 @@ const ImageSlider = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent">
-            Discover Zervy in Action
+            Meet Our Skilled Artisans
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how we're transforming the service industry across Nigeria and preparing for Africa-wide expansion
+            From beauticians to electricians, discover the diverse community of certified professionals ready to serve you across Nigeria
           </p>
         </div>
 
