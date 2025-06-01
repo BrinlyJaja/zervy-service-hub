@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -25,7 +26,7 @@ const ImageSlider = () => {
       description: "Quality woodworking and carpentry services for your construction needs"
     },
     {
-      image: "https://images.unsplash.com/photo-1492633423870-43d1cd2775eb?w=800&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
       title: "Certified Mechanics",
       description: "Reliable automotive repair and maintenance services from trusted professionals"
     }
