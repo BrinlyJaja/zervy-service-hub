@@ -26,7 +26,7 @@ const ImageSlider = () => {
       description: "Quality woodworking and carpentry services for your construction needs"
     },
     {
-      image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?w=800&h=600&fit=crop",
       title: "Certified Mechanics",
       description: "Reliable automotive repair and maintenance services from trusted professionals"
     }
