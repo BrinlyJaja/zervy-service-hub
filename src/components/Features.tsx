@@ -6,37 +6,37 @@ const Features = () => {
     {
       icon: Shield,
       title: "Certified Artisans",
-      description: "All service providers are verified and certified for quality assurance",
+      description: "All service providers are verified and certified across every field - from beauticians to electricians",
       color: "from-blue-500 to-cyan-500"
     },
     {
       icon: MapPin,
       title: "Location-Based Search",
-      description: "Find services near you with our smart location-based matching",
+      description: "Find services near you with our smart location-based matching for any artisan field",
       color: "from-green-500 to-emerald-500"
     },
     {
       icon: Star,
       title: "Real Reviews",
-      description: "Authentic customer reviews to help you make informed decisions",
+      description: "Authentic customer reviews for every service category to help you make informed decisions",
       color: "from-yellow-500 to-orange-500"
     },
     {
       icon: Search,
-      title: "Stress-Free Discovery",
-      description: "Effortlessly find the right service provider for your needs",
+      title: "Every Field Covered",
+      description: "From beauty and wellness to electrical and plumbing - we prioritize all artisan businesses",
       color: "from-purple-500 to-pink-500"
     },
     {
       icon: Clock,
       title: "Quick Response",
-      description: "Get connected with available artisans in real-time",
+      description: "Get connected with available artisans in real-time across all service categories",
       color: "from-red-500 to-rose-500"
     },
     {
       icon: Users,
-      title: "Trusted Community",
-      description: "Join thousands of satisfied customers across Nigeria",
+      title: "Diverse Community",
+      description: "Join thousands of customers and skilled artisans from beauticians to electricians and beyond",
       color: "from-indigo-500 to-blue-500"
     }
   ];
@@ -53,7 +53,7 @@ const Features = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're revolutionizing how people connect with service providers across Africa, 
-            starting with Nigeria and expanding continent-wide.
+            prioritizing every artisan field from beauticians to electricians and beyond.
           </p>
         </div>
         
@@ -77,6 +77,26 @@ const Features = () => {
               </p>
             </div>
           ))}
+        </div>
+
+        {/* Artisan Categories Showcase */}
+        <div className="mt-16 text-center">
+          <h3 className="text-2xl md:text-3xl font-bold mb-8 text-gray-900">
+            Every Artisan Field, One Platform
+          </h3>
+          <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
+            {[
+              "Beauticians", "Electricians", "Plumbers", "Carpenters", "Mechanics", "Tailors",
+              "Cleaners", "Painters", "Hair Stylists", "Makeup Artists", "Welders", "HVAC Technicians"
+            ].map((category, index) => (
+              <span
+                key={index}
+                className="px-4 py-2 bg-gradient-to-r from-blue-100 to-purple-100 text-gray-700 rounded-full text-sm font-medium hover:from-blue-200 hover:to-purple-200 transition-all duration-300"
+              >
+                {category}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
     </section>
